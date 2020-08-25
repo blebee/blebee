@@ -18,6 +18,22 @@ const routes: Routes = [
   {
     path: 'about',
     loadChildren: () => import('./about/about.module').then( m => m.AboutPageModule)
+  },
+  {
+    path: 'contact',
+    loadChildren: () => import('./contact/contact.module').then( m => m.ContactPageModule)
+  },
+  {
+    path: 'register',
+    loadChildren: () => import('./register/register.module').then( m => m.RegisterPageModule)
+  },
+  {
+    path: 'login',
+    loadChildren: () => import('./login/login.module').then( m => m.LoginPageModule)
+  },
+  {
+    path: 'news',
+    loadChildren: () => import('./news/news.module').then( m => m.NewsPageModule)
   }
 ];
 
