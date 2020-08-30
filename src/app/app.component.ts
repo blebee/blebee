@@ -15,7 +15,7 @@ export class AppComponent implements OnInit {
     {
       title: 'หน้าแรก',
       url: '/home',
-      icon: 'mail'
+      icon: 'home'
     },
     {
       title: 'เกี่ยวกับ',
@@ -25,7 +25,7 @@ export class AppComponent implements OnInit {
     {
       title: 'ติดต่อ',
       url: '/contact',
-      icon: 'heart'
+      icon: 'mic'
     }
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
